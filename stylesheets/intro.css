@@ -1,0 +1,30 @@
+
+h1 {
+color: red ;
+text-align: center;
+}
+
+
+svg {
+background: url("../background/outdoor.jpeg") 0 50% no-repeat;
+background-size: cover;
+width: 70%;
+display: block;
+margin: 0 auto;
+height: 650px;
+}
+
+audio {
+display: none;	
+}
+
+#svg115 {
+display: none;
+}
+
+
+@media screen and (max-width: 380px) {
+svg	{
+width: 100%;
+	}
+}
